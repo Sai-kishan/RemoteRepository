@@ -14,6 +14,7 @@ class A
 		Coll.add("Yadav");
 		Coll.add("Kuruva");
 		Coll.add("hi");
+		Coll.add("hello");
 		
 		Iterator<String> itr=Coll.iterator();
 		while(itr.hasNext())
