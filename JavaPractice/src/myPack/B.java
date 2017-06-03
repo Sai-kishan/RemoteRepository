@@ -30,11 +30,11 @@ class B
 			boolean flag=ps.execute();
 			if(flag=true)
 			{
-				System.out.println("Row is inserted in database");
+				System.out.println("Rows are retrieved from database");
 			}
 			else
 			{
-				System.out.println("Row is NOT inserted in database");
+				System.out.println("Rows are NOT retrieved from database");
 			}
 		}
 		catch(Exception e)
