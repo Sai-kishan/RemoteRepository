@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none" configfailurepolicy="continue">
+	 <parameter name="VMIPAddress" value="139.126.189.127" />
+	 <parameter name="Port" value="5551"/>
+<!-- 
+  <test name="Test1">
+    <classes>
+      <class name="myPack.LaunchGuru99Site"/>
+    </classes>
+  </test> 
+
+ 
+  <test name="Test2">
+    <classes>
+      <class name="myPack.LaunchGoogleSite"/>
+    </classes>
+  </test> 
+
+
+  <test name="Test3">
+    <classes>
+      <class name="myPack.LaunchGitHubSite"/>
+    </classes>
+  </test> 
+-->
+
+  <test name="Test4">
+    <classes>
+      <class name="myPack.LaunchGoogleSiteInSauceLabs"/>
+    </classes>
+  </test> 
+
+
+</suite> 
