@@ -42,6 +42,9 @@ public class LaunchGoogleSite
 		//WebDriver driver=new InternetExplorerDriver();
 		driver.get("www.google.com");
 		
+		
+		System.out.println("Hi, I have added a new line here");
+		
 		/*
 		System.setProperty("webdriver.ie.driver","C:\\Softwares\\IEDriverServer32Bit.exe");
 		DesiredCapabilities cap=DesiredCapabilities.internetExplorer();
